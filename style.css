@@ -1,0 +1,131 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: 300px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.image-container img {
+  max-width: 600px; /* Ajusta el valor según tus preferencias */
+  height: auto;
+}
+
+/* Resto de estilos CSS... */
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn {
+  /* Estilos generales de botón */
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-volver {
+  text-decoration: none;
+}
+
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+.btn-estudiante {
+  /* Estilos específicos para el botón de estudiante */
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-estudiante:hover {
+  /* Estilos para el botón de estudiante al pasar el cursor */
+  background-color: #0056b3;
+}
+
+.btn-docente {
+  /* Estilos específicos para el botón de docente */
+  background-color: #ff7f00;
+  color: #fff;
+}
+
+.btn-docente:hover {
+  /* Estilos para el botón de docente al pasar el cursor */
+  background-color: #e66500;
+}
+
+.login-link {
+  /* Estilos para el enlace de inicio de sesión */
+  margin-top: 20px;
+}
+
+.login-link a {
+  /* Estilos para el enlace dentro del enlace de inicio de sesión */
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
