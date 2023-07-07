@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Course List - Educational and Online Course HTML Website Template</title>  
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css"/>
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="vendors/elegant_Icon/elegent_icon.css"/>
+    <!-- nice select CSS -->
+    <link rel="stylesheet" href="vendors/niceselect/css/nice-select.css"/>
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="vendors/owl_carousel/css/owl.carousel.css"/>
+    <!-- magnific popup CSS -->
+    <link rel="stylesheet" href="vendors/magnify_popup/magnific-popup.css"/>
+    <!-- Countdown CSS -->
+    <link rel="stylesheet" href="vendors/countdown/css/Countdown.css"/>
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css"/>
+    <!-- aos CSS -->
+    <link rel="stylesheet" href="vendors/aos/aos.css"/>
+    <!-- course CSS -->
+    <link rel="stylesheet" href="css/courses.css"/>
+    <!-- style CSS -->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <!-- start Preloader  -->
+    <div class="preloder_part">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <!-- End Preloader  -->
+
+ <!-- header part here -->
+<header class="header_part">
+    <div class="sub_header section_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-7 col-md-7">
+                    <div class="header_contact_info">
+                        <a href="tel:+4641468425"><i class="icon_phone"></i>+51 996286471</a>
+                        <a href="mailto:aulaconectada@gmail.com"><i class="icon_mail_alt"></i>aulaconectada@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-5 col-md-5">
+                    <div class="header_login_info">
+                        <a href="teacher.html">Conviértete en Profesor</a>
+                        <a href="my-profile.html">Mi Perfil</a>
+                        <a href="my-profileprofesor.html">Mi Perfil - Profesor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_iner d-flex justify-content-between align-items-center">
+                        <div class="sidebar_icon troggle_icon d-lg-none">
+                            <i class="icon_menu"></i>
+                        </div>
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo.png" alt="#"></a>
+                        </div>
+
+                        <nav class="navbar_bar">
+                            <ul>
+                                <li class="mega_menu_dropdown">
+                                    <a class="mega_menu_dropdown-toggle nav-link active" href="#">Inicio</a>
+                                    <ul>
+                                        <li><a class="active" href="index.html">Página de inicio uno</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mega_menu_dropdown">
+                                    <a class="mega_menu_dropdown-toggle nav-link" href="#">Todos los Cursos</a>
+                                    <ul>
+                                        <li><a href="course-list.html">Lista de Cursos</a></li>
+                                        <li><a href="course-grid.html">Cuadrícula de Cursos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mega_menu_dropdown">
+                                    <a class="mega_menu_dropdown-toggle nav-link" href="#">Páginas</a>
+                                    <ul>
+                                        <li><a href="instructor.html">Instructor</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contáctanos</a></li>
+                            </ul>
+                        </nav>
+                        <div class="navbar_btn">
+                            <a href="live-class.html" class="btn_1">Únete a la Clase en Vivo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</header>
+<!-- header part end -->
+    
+    <!-- courses part here --> 
+    <div id="content" class="site-content" bis_skin_checked="1">
+        <div class="lp-archive-courses" bis_skin_checked="1">
+            <ul class="learn-press-breadcrumb">
+                <li><a href="index.html" bis_skin_checked="1"><span>Página principal</span></a></li>
+                <li class="breadcrumb-delimiter"><i class="fas fa-chevron-right"></i></li>
+                <li><span>Todos los Cursos</span></li>
+            </ul>
+            <div class="lp-content-area" bis_skin_checked="1">
+                <header class="learn-press-courses-header">
+                    <h1>Todos los cursos</h1>
+                </header>
+                <div class="lp-courses-bar list" bis_skin_checked="1">
+                    <form class="search-courses" method="get" action="index.html">
+                        <input type="hidden" name="post_type" value="lp_course">
+                        <input type="hidden" name="taxonomy" value="">
+                        <input type="hidden" name="term_id" value="">
+                        <input type="hidden" name="term" value="">
+                        <input type="text" placeholder="Buscar curso..." name="s" value="">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div class="switch-layout" bis_skin_checked="1">
+                        <input type="radio" name="lp-switch-layout-btn" value="grid" id="lp-switch-layout-btn-grid">
+                        <label class="switch-btn grid" title="Switch to grid" for="lp-switch-layout-btn-grid"></label>
+                        <input type="radio" name="lp-switch-layout-btn" value="list" id="lp-switch-layout-btn-list" checked="checked">
+                        <label class="switch-btn list" title="Switch to list" for="lp-switch-layout-btn-list"></label>
+                    </div>
+                </div>
+                <ul class="learn-press-courses" data-layout="list">
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_9.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Cálculo de una Variable" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                            <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Matemática</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Cálculo de una Variable</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">El cálculo vectorial, análisis vectorial o cálculo multivariable es un campo de las matemáticas referidas...</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">Ver más</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_8.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Software Development" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                            <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Matemática</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Cálculo Vectorial</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">El cálculo vectorial, análisis vectorial o cálculo multivariable...</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">View More</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_7.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Software Development" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                            <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Matemática</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Álgebra Lineal</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">El álgebra lineal es una rama de las matemáticas que estudia conceptos tales como vectores, matrices, espacio dual...</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">View More</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_6.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Software Development" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                            <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Matemática</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Trigonometría</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">La trigonometría es una rama de la matemática cuyo significado etimológico es 'la medición de los triángulos'....</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">View More</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_5.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Software Development" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                            <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Matemática</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Razonamiento Matemático</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">El razonamiento matemático es aquel tipo de razonamiento que utiliza números, fórmulas, símbolos...</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">View More</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_4.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Software Development" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                            <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Química</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Química General</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">La química general es la rama de la química que estudia las leyes, los fundamentos y los principios...</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">View More</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_3.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Software Development" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                            <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Mecánica</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Introducción a la Mecánica</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">El curso de la introducción a la mecánica clásica Este curso está enfocado en el estudio del movimiento de los objetos en escalas...</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">View More</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                    <li id="post-1026" class="post-1026 lp_course type-lp_course status-publish has-post-thumbnail hentry course_category-computer-science course">
+                        <div class="course-item" bis_skin_checked="1">
+                            <div class="course-wrap-thumbnail" bis_skin_checked="1">
+                                <div class="course-thumbnail" bis_skin_checked="1">
+                                    <a href="course-details.html" bis_skin_checked="1">
+                                        <div class="thumbnail-preview" bis_skin_checked="1">
+                                            <div class="thumbnail" bis_skin_checked="1">
+                                                <div class="centered" bis_skin_checked="1">
+                                                    <img width="370" height="280" src="img/popular_item_2.png" class="attachment-500x300 size-500x300 wp-post-image" alt="Software Development" loading="lazy" title="Software Development">                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- START .course-content --> 
+                           <div class="course-content" bis_skin_checked="1">
+                                <div class="course-categories" bis_skin_checked="1">
+                                    <a href="course-category.html" rel="tag" bis_skin_checked="1">Humanidades</a>    
+                                </div>
+                                <span class="course-instructor">
+                                    <a href="my-profile.html" bis_skin_checked="1"><span>Mauricio Salazar</span></a>
+                                </span>
+                                <a href="course-details.html" class="course-permalink" bis_skin_checked="1">          
+                                    <h3 class="course-title">Comunicación</h3>
+                                </a>
+                                <!-- START .course-content-meta --> 
+                                <div class="course-wrap-meta" bis_skin_checked="1">
+                                    <div class="meta-item meta-item-lesson" bis_skin_checked="1">
+                                        <span class="meta-number">11 Clases</span>
+                                    </div>
+                                    <div class="meta-item meta-item-quiz" bis_skin_checked="1">
+                                        <span class="meta-number">1 Quizz</span>
+                                    </div>
+                                    <div class="meta-item meta-item-student" bis_skin_checked="1">    <span class="meta-number">0 students</span>
+                                    </div>
+                                </div> <!-- END .course-content-meta -->
+                                <div class="separator" bis_skin_checked="1"></div>
+                                <div class="course-info" bis_skin_checked="1">
+                                    <div class="course-excerpt" bis_skin_checked="1">La comunicación es la acción consciente de intercambiar información entre dos o más participantes con el fin de transmitir o recibir....</div>
+                                    <div class="clearfix" bis_skin_checked="1"></div>
+                                    <!-- START .course-content-footer --> 
+                                    <div class="course-footer" bis_skin_checked="1">
+                                        <div class="course-price" bis_skin_checked="1">
+                                            <span class="price">S/ 80.00</span>
+                                        </div>
+                                    </div> 
+                                    <!-- END .course-content-footer -->      
+                                    <div class="course-readmore" bis_skin_checked="1">
+                                        <a href="course-details.html" bis_skin_checked="1">View More</a>
+                                    </div>       
+                                </div>
+                            </div> 
+                            <!-- END .course-content --> 
+                        </div>
+                    </li>
+                </ul>
+                <nav class="learn-press-pagination navigation pagination">
+                    <ul class="page-numbers">
+                        <li><span aria-current="page" class="page-numbers current">1</span></li>
+                        <li><a class="page-numbers" href="#" bis_skin_checked="1">2</a></li>
+                        <li><a class="next page-numbers" href="#" bis_skin_checked="1"><i class="arrow_right"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- courses part end --> 
+    
+    <!-- Start LTR & RTL Button -->
+	<div class="ltr-rtl-button">
+		<a class="default-btn active ltr">
+		    LTR
+		</a>
+		<a class="default-btn rtl">
+		    RTL
+		</a>
+	</div>
+	<!-- End LTR & RTL Button -->
+		
+	<!-- footer part here -->
+<footer class="footer_section">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_feature_footer">
+                    <a href="index.html"><img src="img/logo.png" alt="#"></a>
+                    <p>Conecta con profesores que entienden tus necesidades y te ayudan a alcanzar tus metas.</p>
+                    <div class="footer_contact_info">
+                        <a href="tel:+464145684325"><i class="icon_phone"></i>+51 996286471</a>
+                        <a href="mailto:education@example.com"><i class="icon_mail_alt"></i>aulaconectada@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_feature_footer footer_nav">
+                    <h4>Cursos Populares</h4>
+                    <ul>
+                        <li><a href="course-details.html">Álgebra y Cálculo</a></li>
+                        <li><a href="course-details.html">Programación</a></li>
+                        <li><a href="course-details.html">Inglés</a></li>
+                        <li><a href="course-details.html">Redacción</a></li>
+                        <li><a href="course-details.html">Geometria</a></li>
+                    </ul>
+                </div>
+            </div>         
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_feature_footer footer_nav">
+                    <h4>CATEGORÍAS DE CURSOS</h4>
+                    <ul>
+                        <li><a href="course-category.html">Comunicación y Redacción</a></li>
+                        <li><a href="course-category.html">Humanidades</a></li>
+                        <li><a href="course-category.html">Ciencia de la Computación</a></li>
+                        <li><a href="course-category.html">Ciencia de Datos</a></li>
+                        <li><a href="course-category.html">Idiomas</a></li>
+                        <li><a href="course-category.html">Matemáticas y Lógica</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="single_feature_footer footer_nav">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Clases en Vivo</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="copyright_part">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-8">
+                            <p>Derechos de Autor © 2023 Diseño por <a href="#" class="text_underline">Nosotros.</a> Todos los derechos reservados.</p>
+                        </div> 
+                        <div class="col-lg-6 col-md-4">
+                            <div class="social_icon">
+                                <a href="#"><i class="social_facebook"></i></a>
+                                <a href="#"><i class="social_twitter"></i></a>
+                                <a href="#"><i class="social_youtube"></i></a>
+                                <a href="#"><i class="social_instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="img/icon/shape_01.png" alt="#" class="footer_sharp_1">
+    <img src="img/icon/about_shape_02.png" alt="#" class="footer_sharp_2 custom-animation2">
+    <img src="img/icon/about_shape_03.png" alt="#" class="footer_sharp_3 custom-animation3">
+</footer>
+    <!-- footer part end -->
+
+    <!-- jquery slim -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstarp js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- nice select -->
+    <script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
+    <!-- magnify popup js -->
+    <script src="vendors/magnify_popup/jquery.magnific-popup.js"></script>
+    <!-- simplyCountdown js -->
+    <script src="vendors/countdown/js/simplyCountdown.min.js"></script>
+    <!-- counter js -->
+    <script src="vendors/counter/jquery.countTo.js"></script> 
+    <!-- aos js -->
+    <script src="vendors/aos/aos.js"></script>
+    <!-- courses js -->
+    <script src="js/courses.js"></script>
+    <!-- font awesome js -->
+    <script src="https://kit.fontawesome.com/6ee3230338.js"/></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
